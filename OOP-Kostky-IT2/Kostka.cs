@@ -15,5 +15,10 @@ namespace OOP_Kostky_IT2
     {
       Hodnota = random.Next(1, 7);
     }
+
+    public override string ToString()
+    {
+      return Hodnota.ToString();
+    }
   }
 }
